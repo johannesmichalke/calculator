@@ -1,0 +1,54 @@
+#frame{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    gap:5px;
+}
+
+#buttons{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+#display{
+    width:415px;
+    height:100px;
+    background-color: black;
+    color:white;
+    text-align: right;
+    font-size: xx-large;
+    line-height: 100px;
+}
+
+.rows{
+    display:flex;
+    gap:5px;
+}
+
+.button{
+    width:100px;
+    height:100px;
+    background-color: lightgray;
+    font-size:medium;
+    text-align: center;
+    line-height: 100px;
+}
+
+.zero{
+    width:205px;
+}
+
+.number{
+    background-color: grey;
+    font-size: xx-large;
+}
+
+.operator{
+    background-color: orange;
+    font-size: xx-large;
+}
+
+#dot{
+    font-size:xx-large;
+}
